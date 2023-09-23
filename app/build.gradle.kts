@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.example.composelifecycle"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.composelifecycle"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -57,8 +57,7 @@ dependencies {
     implementation("androidx.compose.ui:ui-graphics")
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material:material")
-    implementation("androidx.compose.runtime:runtime-livedata:" +
-            "git 1.6.0-alpha06")
+    implementation("androidx.compose.runtime:runtime-livedata:1.6.0-alpha06")
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.7.0-alpha02")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

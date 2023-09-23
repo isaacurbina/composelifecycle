@@ -7,7 +7,12 @@ class BooksRepositoryImpl : BooksRepository {
         // Some API call
         // Parser logic
         return listOf(
-            Book("book1"), Book("2book"), Book("libro3"), Book("4livre"), Book("shuwu")
+            Book(System.currentTimeMillis().toString()),
+            Book("book1"),
+            Book("2book"),
+            Book("libro3"),
+            Book("4livre"),
+            Book("shuwu")
         )
     }
 }
